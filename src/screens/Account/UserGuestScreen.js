@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
 import React from "react";
 
-export function FavouritesScreen() {
+export function UserGuestScreen() {
   return (
     <View>
-      <Text>Favourite</Text>
+      <Text>UserGuestScreen</Text>
     </View>
   );
 }
