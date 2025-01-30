@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import { UserGuestScreen } from "./UserGuestScreen/UserGuestScreen";
-import { UserLoggedScreen } from "./UserLoggedScreen";
+import { UserLoggedScreen } from "./UserLoogedScreen/UserLoggedScreen";
 import { LoadingModal } from "../../components";
 export function AccountScreen() {
   const [hasLogged, sethasLogged] = useState(null);
