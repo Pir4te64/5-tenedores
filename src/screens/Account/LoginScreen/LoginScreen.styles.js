@@ -17,4 +17,8 @@ export const styles = StyleSheet.create({
     color: "#00a680",
     fontWeight: "bold",
   },
+  container: {
+    marginHorizontal: 40,
+    marginTop: 20,
+  },
 });
